@@ -8,15 +8,25 @@
 
 
 body {
-	font-family: 'Lobster Two';
+	
 	font-size: 10px;
 	text-align: center;
 }
 
-#main {
+#suggestion {
 	padding: 150px 0;
-
-	p {
+	font-family: 'Lobster Two';
 		font-size: 9.6em;
 	}
+
+	#links {
+		margin: 20px 0;
+		color: #666;
+	}
+
+
+
+
+#google {
+	margin-top: 10px;
 }
