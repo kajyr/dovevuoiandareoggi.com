@@ -1,13 +1,14 @@
 {
   "name": "Dovevuoiandareoggi.com",
   "version": "2.0.0",
-  "homepage": "www.dovevuoiandareoggi.com",
-  "repository" : {
-  	"type" : "git",
-  	"url" : ""
+  "homepage": "http://www.dovevuoiandareoggi.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kajyr/dovevuoiandareoggi.com.git"
   },
   "devDependencies": {
     "grunt": "~0.4.4",
     "grunt-contrib-jshint": "~0.6.3",
+    "grunt-ftp": "^0.1.0"
   }
 }
