@@ -9,8 +9,6 @@ $frasi['it'] = array(
 $pos = strip_tags($_GET['a']);
 
 if ( empty($pos) || empty($frasi[$lang][$pos]) ) {
-
-	//$pos = 0;
 	$pos = array_rand($frasi[$lang]);
 }
 
@@ -31,11 +29,6 @@ if ( empty($pos) || empty($frasi[$lang][$pos]) ) {
 	<meta name="description" content="Dove vuoi andare oggi?">
 	<meta name="author" content="Carlo 'kajyr'">
 
-	<?php /*<meta name="viewport" content="width=device-width, initial-scale=1.0">*/?>
-	
-	<?php /* <link rel="shortcut icon" href="/favicon.ico">
-	<link rel="apple-touch-icon" href="/apple-touch-icon.png">*/?>
-
 	<link href='http://fonts.googleapis.com/css?family=Lobster+Two:700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/style.css?v=2">
 
@@ -54,8 +47,6 @@ if ( empty($pos) || empty($frasi[$lang][$pos]) ) {
 <body>
 
 	<div id="container">
-		<header>	
-		</header>
 
 		<section id="suggestion">
 			<p>
@@ -63,12 +54,7 @@ if ( empty($pos) || empty($frasi[$lang][$pos]) ) {
 			</p>
 		</section>
 
-
-
 		<footer>
-
-
-
 
 			<div class="social" id="facebook">
 				<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=176793495722085&amp;xfbml=1"></script>
@@ -91,7 +77,6 @@ if ( empty($pos) || empty($frasi[$lang][$pos]) ) {
 	<!-- Place this tag after the last +1 button tag. -->
 	<script type="text/javascript">
 	window.___gcfg = {lang: 'it'};
-
 	(function() {
 		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
 		po.src = 'https://apis.google.com/js/plusone.js';
