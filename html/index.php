@@ -46,6 +46,7 @@ if ( empty($pos) || empty($frasi[$lang][$pos]) ) {
 	<meta property="og:type" content="website"/>
 	<meta property="og:site_name" content="Dove vuoi andare oggi?"/>
 	<meta property="og:url" content="http://dovevuoiandareoggi.com">
+	<meta property="og:image" content="http://dovevuoiandareoggi.com/images/5826041631_d965a190bd_b.jpg">
 	<meta property="og:description" content="Dove vuoi andare oggi ti da degli ottimi suggerimenti"/>
 
 </head>
