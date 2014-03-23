@@ -20,12 +20,21 @@ $frasi['it'][] = "affanculo."
   <meta name="author" content="Carlo 'kajyr'">
 
   <?php /*<meta name="viewport" content="width=device-width, initial-scale=1.0">*/?>
-  <meta property="fb:admins" content="707570570" />
+  
   <?php /* <link rel="shortcut icon" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">*/?>
 
   <link href='http://fonts.googleapis.com/css?family=Lobster+Two:700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/style.css?v=2">
+
+  <link rel="author" type="text/html" href="http://google.com/+CarloPanzi"/>
+
+  <meta property="fb:admins" content="707570570" />
+  <meta property="og:title" content="Dove vuoi andare oggi?"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="Dove vuoi andare oggi?"/>
+  <meta property="og:url" content="http://dovevuoiandareoggi.com">
+  <meta property="og:description" content="Dove vuoi andare oggi ti da degli ottimi suggerimenti"/>
 
 </head>
 
