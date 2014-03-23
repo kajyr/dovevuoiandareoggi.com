@@ -37,7 +37,9 @@ $frasi['it'][] = "affanculo."
     </header>
     <div id="main" role="main">
 
-      <?php echo $frasi[$lang][array_rand($frasi[$lang])] ?>
+      <p>
+        <?php echo $frasi[$lang][array_rand($frasi[$lang])] ?>
+      </p>
 
     </div>
     <footer>
