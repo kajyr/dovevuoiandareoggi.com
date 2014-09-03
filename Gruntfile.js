@@ -3,6 +3,13 @@ module.exports = function(grunt) {
 	// Project configuration.
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
+		compass: {
+			release: {
+				options: {
+					config: 'config.rb'
+				}
+			}
+		},
 		ftp_push: {
 
 			prod: {
@@ -17,7 +24,7 @@ module.exports = function(grunt) {
 			}
 		}
 	});
-
+	grunt.loadNpmTasks('grunt-contrib-compass');
 	grunt.loadNpmTasks('grunt-ftp-push');
 
 	// Default task(s).

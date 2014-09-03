@@ -7,9 +7,19 @@
     "url": "https://github.com/kajyr/dovevuoiandareoggi.com.git"
   },
   "devDependencies": {
-    "grunt": "~0.4.4",
+    "grunt": "^0.4.5",
     "grunt-contrib-jshint": "~0.6.3",
     "grunt-ftp": "^0.1.0",
-    "grunt-ftp-push": "^0.1.3"
-  }
+    "grunt-ftp-push": "^0.2.4",
+    "grunt-contrib-compass": "^0.9.1"
+  },
+  "description": "Dovevuoiandareoggi.com",
+  "bugs": {
+    "url": "https://github.com/kajyr/dovevuoiandareoggi.com/issues"
+  },
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlo 'kajyr' <carlo.panzi@gmail.com> (http://kajyr.github.io/)"
 }
