@@ -16,7 +16,7 @@ module.exports = function(grunt) {
 				options: {
 					host: 'ftp.s85630.gridserver.com',
 					authKey: 'nightdrops',
-					dest: '/domains/dovevuoiandareoggi.com/html/'
+					dest: '/domains/dovevuoiandareoggi.com/'
 				},
 				files: [
 					{ expand: true, src: ['html/**'] }
@@ -28,7 +28,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-ftp-push');
 
 	// Default task(s).
-	//grunt.registerTask('default', ['sitemap']);
-	grunt.registerTask('deploy', ['ftp_push']);
+	grunt.registerTask('build', ['compass']);
+	grunt.registerTask('deploy', ['build', 'ftp_push']);
 
 };
