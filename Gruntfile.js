@@ -4,9 +4,12 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 		sass: {
-			release: {
-				options: {
-					config: 'config.rb'
+			options: {
+				sourceMap: false
+			},
+			dist: {
+				files: {
+					'css/style.css': 'sass/style.scss'
 				}
 			}
 		}
@@ -15,7 +18,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-ftp-push');
 
 	// Default task(s).
-	grunt.registerTask('build', ['compass']);
+	grunt.registerTask('build', ['sass']);
 	grunt.registerTask('deploy', ['build', '']);
 
 };
