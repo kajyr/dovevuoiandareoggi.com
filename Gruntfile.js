@@ -18,6 +18,6 @@ module.exports = function(grunt) {
 
 	// Default task(s).
 	grunt.registerTask('build', ['sass']);
-	grunt.registerTask('deploy', ['build', '']);
+	grunt.registerTask('deploy', ['build']);
 
 };
