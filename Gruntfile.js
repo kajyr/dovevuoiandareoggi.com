@@ -15,7 +15,6 @@ module.exports = function(grunt) {
 		}
 	});
 	grunt.loadNpmTasks('grunt-sass');
-	grunt.loadNpmTasks('grunt-ftp-push');
 
 	// Default task(s).
 	grunt.registerTask('build', ['sass']);
