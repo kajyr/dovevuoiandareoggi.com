@@ -7,8 +7,8 @@
     "url": "https://github.com/kajyr/dovevuoiandareoggi.com.git"
   },
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-sass": "^1.1.0"
+    "grunt": "^1.0.1",
+    "grunt-sass": "^1.2.1"
   },
   "description": "Dovevuoiandareoggi.com",
   "bugs": {
